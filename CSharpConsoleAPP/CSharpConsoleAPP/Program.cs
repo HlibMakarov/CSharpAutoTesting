@@ -10,14 +10,16 @@ namespace CSharpConsoleAPP
 
         static void Main(string[] args)
         {
-            TestClass1 class1 = new TestClass1();
+            //Implicit conversion
+            Int16 salary = 32767;
+            int salaryIncrement = salary;
+            salaryIncrement = 3276745;
 
-            bool testcase = true;
 
 
 
+            Console.WriteLine(salaryIncrement);
 
-            Console.WriteLine(testcase);
             Console.Read();
 
         }
