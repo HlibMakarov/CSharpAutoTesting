@@ -7,26 +7,15 @@ namespace CSharpConsoleAPP
     class TestClass1
     {
 
-        private int i = 0;
-
-        public void SetValue(int value)
+        public void Add()
         {
-            i = value;
+            Console.WriteLine("This is empty Add method: ");
         }
+        public void Add(int num1, int  num2)
+        {
+            int result = num1 + num2;
 
-        public void GetValue()
-        {
-            Console.WriteLine("The value of i is: " + i);
-        }
-
-        //Members https://www.youtube.com/watch?v=NNYJjn9b2-0&list=PL6tu16kXT9Pp3NFZgLbPZXEykeGQwxGSx&index=4&ab_channel=ExecuteAutomation
-        public void TestCase1(string result)
-        {
-            Console.WriteLine("Executing TestCase1 "+ result);
-        }
-        public void TestCase2(string result)
-        {
-            Console.WriteLine("Executing TestCase2 " + result);
+            Console.WriteLine("This is Add method with two params: "+ result);
         }
     }
 }

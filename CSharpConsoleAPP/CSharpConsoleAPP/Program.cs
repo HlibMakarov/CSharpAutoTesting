@@ -10,6 +10,16 @@ namespace CSharpConsoleAPP
 
         static void Main(string[] args)
         {
+            TestClass1 testClass = new TestClass1();
+            testClass.Add(12, 12);
+           
+
+            Console.Read();
+
+        }
+
+        private static void NewMethod()
+        {
             //Implicit conversion
             Int16 salary = 32767;
             int salaryIncrement = salary;
@@ -23,12 +33,9 @@ namespace CSharpConsoleAPP
 
             var loginPage2 = new LoginPage();
             loginPage2.ClickButton();
-
             //((UserListPage)loginPage2).ClickButton();
-
-            Console.Read();
-
         }
+
         public class LoginPage
         {
             public string UserName { get; set; }
