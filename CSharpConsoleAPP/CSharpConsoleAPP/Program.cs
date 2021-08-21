@@ -12,15 +12,12 @@ namespace CSharpConsoleAPP
         {
             TestClass1 class1 = new TestClass1();
 
-            class1.SetValue(20);
-            class1.GetValue();
+            bool testcaese = true;
 
-            TestClass1 class2 = new TestClass1();
 
-            class2.SetValue(20);
-            class2.GetValue();
 
-            Console.WriteLine("Hello World!");
+
+            Console.WriteLine(testcaese);
             Console.Read();
 
         }
