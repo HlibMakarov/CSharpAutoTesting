@@ -14,11 +14,13 @@ namespace CSharpConsoleAPP
             Int16 salary = 32767;
             int salaryIncrement = salary;
             salaryIncrement = 3276745;
-
-
-
-
             Console.WriteLine(salaryIncrement);
+
+            double incomeTax = 23234.234d;
+
+            Console.WriteLine((int)incomeTax);
+
+           
 
             Console.Read();
 
