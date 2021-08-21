@@ -16,14 +16,31 @@ namespace CSharpConsoleAPP
             salaryIncrement = 3276745;
             Console.WriteLine(salaryIncrement);
 
-            double incomeTax = 23234.234d;
+            var incomeTax = 23234.234d;
 
+            Console.WriteLine(incomeTax.GetType().Name);
             Console.WriteLine((int)incomeTax);
 
-           
+            var loginPage2 = new LoginPage();
+            loginPage2.ClickButton();
+
+            //((UserListPage)loginPage2).ClickButton();
 
             Console.Read();
 
+        }
+        public class LoginPage
+        {
+            public string UserName { get; set; }
+
+            public void ClickButton()
+            {
+
+            }
+        }
+        public class UserListPage
+        {
+            public string ListOfUsers { get; set; }
         }
     }
 }
