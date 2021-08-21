@@ -1,7 +1,7 @@
 ﻿using System;
 
 
-// Создано по видеоуроку https://www.youtube.com/watch?v=0mm3djZ5KpQ&list=PL6tu16kXT9Pp3NFZgLbPZXEykeGQwxGSx&index=2&ab_channel=ExecuteAutomation
+// Создано по видеоурокам https://www.youtube.com/watch?v=0mm3djZ5KpQ&list=PL6tu16kXT9Pp3NFZgLbPZXEykeGQwxGSx&index=2&ab_channel=ExecuteAutomation
 
 namespace CSharpConsoleAPP
 {
@@ -12,12 +12,12 @@ namespace CSharpConsoleAPP
         {
             TestClass1 class1 = new TestClass1();
 
-            bool testcaese = true;
+            bool testcase = true;
 
 
 
 
-            Console.WriteLine(testcaese);
+            Console.WriteLine(testcase);
             Console.Read();
 
         }
