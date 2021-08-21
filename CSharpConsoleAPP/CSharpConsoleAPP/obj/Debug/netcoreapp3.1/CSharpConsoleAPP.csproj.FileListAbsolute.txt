@@ -1,0 +1,14 @@
+C:\Users\Marvel\Documents\GitHub\TestsOnC\CSharpConsoleAPP\CSharpConsoleAPP\bin\Debug\netcoreapp3.1\CSharpConsoleAPP.exe
+C:\Users\Marvel\Documents\GitHub\TestsOnC\CSharpConsoleAPP\CSharpConsoleAPP\bin\Debug\netcoreapp3.1\CSharpConsoleAPP.deps.json
+C:\Users\Marvel\Documents\GitHub\TestsOnC\CSharpConsoleAPP\CSharpConsoleAPP\bin\Debug\netcoreapp3.1\CSharpConsoleAPP.runtimeconfig.json
+C:\Users\Marvel\Documents\GitHub\TestsOnC\CSharpConsoleAPP\CSharpConsoleAPP\bin\Debug\netcoreapp3.1\CSharpConsoleAPP.runtimeconfig.dev.json
+C:\Users\Marvel\Documents\GitHub\TestsOnC\CSharpConsoleAPP\CSharpConsoleAPP\bin\Debug\netcoreapp3.1\CSharpConsoleAPP.dll
+C:\Users\Marvel\Documents\GitHub\TestsOnC\CSharpConsoleAPP\CSharpConsoleAPP\bin\Debug\netcoreapp3.1\CSharpConsoleAPP.pdb
+C:\Users\Marvel\Documents\GitHub\TestsOnC\CSharpConsoleAPP\CSharpConsoleAPP\obj\Debug\netcoreapp3.1\CSharpConsoleAPP.csproj.AssemblyReference.cache
+C:\Users\Marvel\Documents\GitHub\TestsOnC\CSharpConsoleAPP\CSharpConsoleAPP\obj\Debug\netcoreapp3.1\CSharpConsoleAPP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Marvel\Documents\GitHub\TestsOnC\CSharpConsoleAPP\CSharpConsoleAPP\obj\Debug\netcoreapp3.1\CSharpConsoleAPP.AssemblyInfoInputs.cache
+C:\Users\Marvel\Documents\GitHub\TestsOnC\CSharpConsoleAPP\CSharpConsoleAPP\obj\Debug\netcoreapp3.1\CSharpConsoleAPP.AssemblyInfo.cs
+C:\Users\Marvel\Documents\GitHub\TestsOnC\CSharpConsoleAPP\CSharpConsoleAPP\obj\Debug\netcoreapp3.1\CSharpConsoleAPP.csproj.CoreCompileInputs.cache
+C:\Users\Marvel\Documents\GitHub\TestsOnC\CSharpConsoleAPP\CSharpConsoleAPP\obj\Debug\netcoreapp3.1\CSharpConsoleAPP.dll
+C:\Users\Marvel\Documents\GitHub\TestsOnC\CSharpConsoleAPP\CSharpConsoleAPP\obj\Debug\netcoreapp3.1\CSharpConsoleAPP.pdb
+C:\Users\Marvel\Documents\GitHub\TestsOnC\CSharpConsoleAPP\CSharpConsoleAPP\obj\Debug\netcoreapp3.1\CSharpConsoleAPP.genruntimeconfig.cache
