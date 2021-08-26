@@ -10,47 +10,24 @@ namespace CSharpConsoleAPP
 
         static void Main(string[] args)
         {
-            TestClass1 testClass = new TestClass1();
-            int result = testClass.Add(12, 12);
+            string testCaseState = "Iconclusive";
 
-            Console.WriteLine(result +10);
-
-            testClass.Add();
+            if (testCaseState == "PASSED")
+            {
+                Console.WriteLine("TestCase PASSED");
+            }
+            else if (testCaseState == "FAILED")
+            {
+                Console.WriteLine("The CASE FAILED");
+            }
+            else if (testCaseState == "Iconclusive")
+            {
+                Console.WriteLine("The CASE Iconclusive");
+            }
 
             Console.Read();
-
         }
 
-        private static void NewMethod()
-        {
-            //Implicit conversion
-            Int16 salary = 32767;
-            int salaryIncrement = salary;
-            salaryIncrement = 3276745;
-            Console.WriteLine(salaryIncrement);
-
-            var incomeTax = 23234.234d;
-
-            Console.WriteLine(incomeTax.GetType().Name);
-            Console.WriteLine((int)incomeTax);
-
-            var loginPage2 = new LoginPage();
-            loginPage2.ClickButton();
-            //((UserListPage)loginPage2).ClickButton();
-        }
-
-        public class LoginPage
-        {
-            public string UserName { get; set; }
-
-            public void ClickButton()
-            {
-
-            }
-        }
-        public class UserListPage
-        {
-            public string ListOfUsers { get; set; }
-        }
+       
     }
 }
