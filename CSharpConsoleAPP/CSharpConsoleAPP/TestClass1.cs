@@ -11,11 +11,14 @@ namespace CSharpConsoleAPP
         {
             Console.WriteLine("This is empty Add method: ");
         }
-        public void Add(int num1, int  num2)
+        public int Add(int num1, int  num2)
         {
-            int result = num1 + num2;
+            return num1 + num2;
 
-            Console.WriteLine("This is Add method with two params: "+ result);
+            //Console.WriteLine("This is Add method with Two Parametr" + res);
+
+            
+
         }
     }
 }

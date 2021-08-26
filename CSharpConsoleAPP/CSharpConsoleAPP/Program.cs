@@ -11,8 +11,11 @@ namespace CSharpConsoleAPP
         static void Main(string[] args)
         {
             TestClass1 testClass = new TestClass1();
-            testClass.Add(12, 12);
-           
+            int result = testClass.Add(12, 12);
+
+            Console.WriteLine(result +10);
+
+            testClass.Add();
 
             Console.Read();
 
