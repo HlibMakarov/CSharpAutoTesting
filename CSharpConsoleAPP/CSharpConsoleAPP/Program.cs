@@ -13,16 +13,31 @@ namespace CSharpConsoleAPP
             string testCaseState = "Iconclusive";
 
             if (testCaseState == "PASSED")
-            {
                 Console.WriteLine("TestCase PASSED");
-            }
             else if (testCaseState == "FAILED")
-            {
                 Console.WriteLine("The CASE FAILED");
-            }
             else if (testCaseState == "Iconclusive")
+               Console.WriteLine("The CASE Iconclusive");
+
+            switch (testCaseState)
             {
-                Console.WriteLine("The CASE Iconclusive");
+                case "PASSED":
+                    {
+                        Console.WriteLine("TestCase PASSED");
+                        break;
+                    }
+                case "FAILED":
+                    {
+                        Console.WriteLine("TestCase FAILED");
+                        break;
+                    }
+                case "Iconclusive":
+                    {
+                        Console.WriteLine("TestCase Iconclusive");
+                        break;
+                    }
+                    default;
+                    break;
             }
 
             Console.Read();
